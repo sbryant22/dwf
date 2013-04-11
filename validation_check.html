@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8"/>
+	<title>Validation Checks</title>
+  </head>
+  <body>
+    <h1>Four Websites</h1>
+    
+    	<a href="http://www.smashingmagazine.com" title="Smashing Magazine">Smashing Magazine</a><br />
+    <p>This website contains information and links about web site design, different coding languages, how-to tutorials on programming, inspiration, Adobe software products, etc. It is a very helpful site.</p>
+    <p>It did not pass validation in either of the validation sites. This site has 12 errors but 24 in total, if you count the two together.</p>
+    <p>To fix these errors, they would need to close their empty tags and to add whitespace between a closing quote.</p><br />
+    
+    	<a href="http://www.logolounge.com" title="Logo Lounge">Logo Lounge</a><br />
+    <p>This website is where designers can go for inspiration for their own logos and it also acts like a blog. They have design news, updates, and new works from other designers.</p>
+    <p>This site did not pass the validation check from the two validation websites. On the HTML Lint site, it stated that it could not continue with the check because the source code has an illegal closing tag. On the validator.nu site, it has 50 errors.</p>
+    <p>To fix some of these errors I would fix the illegal closing tag by getting rid of the second paragraph end tag (&lt;/p&gt;). For a lot of the other errors, I would put in the required attributes and put in the correct values for shapes like, polygon and rectangles.</p><br />
+    
+		<a href="http://www.universalorlando.com" title="Universal Orlando">Universal Orlando</a><br />
+	<p>This website is for Universal Studios in Orlando, Florida. One of the popular theme parks in Florida.</p>
+	<p>This site did not pass the validation check. On the HTML Lint site, it could not continue with the check because an illegal closing tag was used. On the validator.nu site, Universal Orlando has 129 errors in total.</p>
+	<p>I would fix some of these errors by correcting the illegal closing tag in the head tag. The meta tag is closed incorrectly within the head tag. There are also a lot of missing attributes. I would go back and include the correct ones like, &lt;/a&gt;, in most cases. A space between attributes is also required. Quotes also need to match but in this code they don't, so that would need to be addressed as well.</p><br />
+	
+		<a href="http://www.hottopic.com/hottopic/Homepage.jsp" title="Hot Topic">Hot Topic</a><br />
+	<p>This website is for a popular <q>Punk-Rocking/music-lover</q> store based in malls across the country. They are all about the music and pop culture with their rocker style clothing, accessories, and their wide selection of CDs.</p>
+	<p>This site did not pass validation. On HTML Lint, it also had the illegal use of a closing tag with one of their script tags. On the validator.nu site, Hot Topic had a total of 27 errors when you don't count the warnings.</p>
+	<p>For most of the errors, required attributes are either missing or not allowed. Other errors are that there are misplaced non-spaced characters. To fix most of these errors, the correct attributes will need to be put in. With other errors, like the <q>element link is not allowed in the element center in this context</q>, I would remove that element out of the center element.</p><br />  
+	</body>
+</html>
