@@ -1,40 +1,92 @@
 <!DOCTYPE html>
+<!-- bryant_samantha -->
 <html lang="en">
 	<head>
 	<meta charset="utf-8"/>
 	<title>HTML5 Check</title>
   </head>
   <body>
-    <h1>Html5 Showcase</h1>
-    
-    <h2>Head Vs. Tails</h2>
-		<a href="http://headsvstailsapp.com" title="Heads Vs. Tails">Heads Vs. Tails</a>
-    <p><img src="images/heads_vs_tails.jpg" alt="Heads Vs. Tails Website" width="500" height="375" title="Heads Vs Tails Website"/> 
-    <p>Heads Vs. Tails is a free app game of flipping coins. It can be found in the Apple App Store. It is a realistic coin tossing game with a full 3D engine. It has custom coins through 12 themes and it has two unnoticable ways to force the draw. You can also check the rates of your draws and your progress.</p>
-    <p>This site has not made any kind of attempt at tabbing/indenting their markup. They have 19 errors in their code. Some of their issues are that they are using unregistered keywords and some attributes are missing.</p>
-    <p>A way that can fix some of these problems would be to use registered keywords or to register them theirselves. To fix the other problems, the developer needs to fix the ones that missing attributes. They also shouldn't use the &lt;nav&gt; twice.</p>
-    <p>Their outline came out good. All their headings and subheadings are labeled in order of how it appears on the site.</p>
-    
-    <h2>Justin Timberlake</h2>
-    	<a href="http://www.justintimberlake.com" title="Justin Timberlake">Justin Timberlake</a>
-    <p><img src="images/justin_timberlake.jpg" alt="Justin Timberlake's Website" width="500" height="368" title="Justin Timberlake's Website"/> 
-    <p>This website is where fans of his can go to catch up on the latest news and events for Justin Timberlake.</p>
-    <p>This site's markup makes good use of indenting/tabbing but not with HTML5 structural elements. Some of the closing &lt;p&gt; tags are used incorrectly. They do not use the proper entities for ampersands in their url links. This site has 197 errors.</p>
-    <p>To fix some of these errors, I would elimnate the too many hypens used in the comments and I would close them. A lot of the errors are because the developered used a lot of hypens in the comments possibly thinking that it would close them. Some errors are also that some of the old html for presentations need to be replaced with CSS. I would also fix the closing tags that don't stem from opened tags.</p>
-    <p>This site has some issues in their outline. There are a lot of untitled sections where headers and sub headers should be.</p>
-    
-    <h2>Remaniax</h2>
-		<a href="http://www.remaniax.com" title="Remaniax">Remaniax</a>
-	<p><img src="images/remaniax.jpg" alt="Remaniax: Real House Music" width="500" height="370" title="Remaniax: Real House Music"/> 
-	<p>This website is a music site. Real house music by Remaniax. This site has news and events about the band. It also has downloads of their music and booking information.</p>
-	<p>The developer for this site made good use of indenting/tabbing and overall good use of html5 structure elements. This site only has 9 errors. The errors are mostly that some image attributes are missing and a few keywords are not registered. To fix these errors I would register the keywords or use words that are already and to fix the missing attributes.</p>
-	<p>The outline for this came out correctly. All the headings and subheadings are correct and in the order that is seen on their website.</p>
-	
-	<h2>36 Creative</h2>
-		<a href="http://www.36creative.com" title="36 Creative">36 Creative</a>
-	<p><img src="images/36creative.jpg" alt="36 Creative" width="500" height="372" title="Remaniax: Real House Music"/> 
-	<p>This website is about the team of 36 Creative. They do print, mobile, web, identity, photo, and illustration work. This is a site where you can view their portfolio and can look up how much they charge.</p>
-	<p>This site makes good use of the HTML5 structure elements. This site only has 4 errors. One of the erros was that they needed to use the right entities for the ampersand in a link and just a few bad attributes. To fix these issues, I would but the correct HTML5 entities for the ampersand and I would correct the bad attributes for the meta and links tags. </p>
-	<p>Their outline came out correctly. They have the headings and subheadings in the order that they appear on the site and nothing is missing.</p>
+  	  <div id="wrapper">
+		<header>
+		<a href="html5_check.html"><img src="images/html5_logo.png" alt="HTML5 Logo" width="60" height="82"></a> 
+    	<h1 id="logo"><a href="html5_check.html"></a>HTML5 Check</h1>
+    	<!-- navigation starts -->
+    	<nav>
+    		<ul>
+    			<li><a href="#headsvstails">Heads Vs. Tails</a></li>
+    			<li><a href="#justintimberlake">Justin Timberlake</a></li>
+    			<li><a href="#remaniax">Remaniax</a></li>
+    			<li><a href="#36creative">36 Creative</a></li>
+    		</ul>
+    	</nav>
+    	</header>
+    </div>
+    <!-- Heads vs. Tails info -->
+    	<section>
+    		<div class="title">
+    			<h1 id="headsvstails">Heads Vs. Tails</h1>
+    			<p><a href="http://headsvstailsapp.com" title="headsvstails.com">headsvstails.com</a></p>
+    		</div>
+    		<div id="body">
+    			<p><a href="http://headsvstailsapp.com" title="headsvstails.com"></a><img src="images/heads_vs_tails.jpg" alt="Heads Vs. Tails Website" width="500" height="375" title="Heads Vs Tails Website"/></p>
+    			<div class="review">
+    			<h2>Markup Review</h2>
+    			<p><em>Heads Vs. Tails</em> is a free app game of flipping coins. It can be found in the Apple App Store. It is a realistic coin tossing game with a full 3D engine. It has custom coins through 12 themes and it has two unnoticable ways to force the draw. You can also check the rates of your draws and your progress.</p>
+    			<p>This site has not made any kind of attempt at tabbing/indenting their markup. They have used the html structure elements like &lt;nav&gt;, &lt;header&gt;, and &lt;ul&gt; correctly. They have 19 errors in their code. Some of their issues are that they are using unregistered keywords and some attributes are missing.</p>
+    			<p>A way that can fix some of these problems would be to use registered keywords or to register them theirselves. To fix the other problems, the developer needs to fix the ones that missing attributes. They also shouldn't use the &lt;nav&gt; twice.</p>
+    			<p>Their outline came out good. All their headings and subheadings are labeled in order of how it appears on the site.</p>
+    		</div>
+    			<p><a class="gotop" href="#">Top of page</a></p>
+    			</div>
+    		</section>
+    		<!-- Justin Timberlake info -->
+    		<section>
+    			<div class="title">
+    				<h1 id="justintimberlake">Justin Timberlake</h1>
+    				<p><a href="http://www.justintimberlake.com" title="justintimberlake.com"></a>justintimberlake.com</p>
+    			</div>
+    			<p><a href="http://www.justintimberlake.com" title="Justin Timberlake"></a><img src="images/justin_timberlake.jpg" alt="Justin Timberlake's Website" width="500" height="368" title="Justin Timberlake's Website"/></p>
+    			<div class="review">
+    			<h2>Markup Review</h2> 
+    			<p><em>Justin Timberlake's</em> website is where fans of his can go to catch up on the latest news and events.</p>
+    			<p>This site's markup makes good use of indenting/tabbing but not so much with HTML5 structural elements like the &lt;nav&gt;, &lt;header&gt;, &lt;body&gt;, and &lt;section&gt; tags. Some of the closing &lt;p&gt; tags are used incorrectly. They do not use the proper entities for ampersands in their url links. This site has 197 errors.</p>
+    			<p>To fix some of these errors, I would elimnate the too many hypens used in the comments and I would close them. A lot of the errors are because the developered used a lot of hypens in the comments possibly thinking that it would close them. Some errors are also that some of the old html for presentations need to be replaced with CSS. I would also fix the closing tags that don't stem from opened tags.</p>
+    			<p>This site has some issues in their outline. There are a lot of untitled sections where headers and sub headers should be.</p>
+    			<p><a class="gotop" href="#">Top of page</a></p>
+    			</div>
+    		</section>
+    		<!-- Remaniax info -->
+    	  	<section>
+    			<div class="title">
+    				<h1 id="remaniax"> Remaniax</h1>
+    				<p><a href="http://www.remaniax.com" title="headsvstails.com">remaniax.com</a></p>
+    			</div>
+    				<p><a href="http://www.remaniax.com" title="remaniax.com"></a><img src="images/remaniax.jpg" alt="Remaniax Website" width="500" height="370" title="Remaniax Website"/></p>
+    			<div class="review">
+    			<h2>Markup Review</h2>
+				<p>This website is a music site. Real house music by Remaniax. This site has news and events about the band. It also has downloads of their music and booking information.</p>
+				<p>The developer for this site made good use of indenting/tabbing and overall good use of html5 structure elements. This site only has 9 errors. The errors are mostly that some image attributes are missing and a few keywords are not registered. To fix these errors I would register the keywords or use words that are already and to fix the missing attributes.</p>
+				<p>The outline for this came out correctly. All the headings and subheadings are correct and in the order that is seen on their website.</p>
+    			<p><a class="gotop" href="#">Top of page</a></p>
+    			</div>
+    		</section>
+    		<!-- 36 Creative info -->
+    		<section>
+    			<div class="title">
+    			<h1 id="36creative">36 Creative</h1>
+    			<p><a href="http://www.36creative.com" title="headsvstails.com">36creative.com</a></p>
+    			</div>
+    			<p><img src="images/36creative.jpg" alt="36 Creative" width="500" height="372" title="Remaniax: Real House Music"/>
+    				<div class="review">
+    				<h2>Markup Review</h2>
+	 				<p>This website is about the team of 36 Creative. They do print, mobile, web, identity, photo, and illustration work. This is a site where you can view their portfolio and can look up how much they charge.</p>
+					<p>This site makes good use of the HTML5 structure elements. This site only has 4 errors. One of the erros was that they needed to use the right entities for the ampersand in a link and just a few bad attributes. To fix these issues, I would but the correct HTML5 entities for the ampersand and I would correct the bad attributes for the meta and links tags. </p>
+					<p>Their outline came out correctly. They have the headings and subheadings in the order that they appear on the site and nothing is missing.</p>
+					<p><a class="gotop" href="#">Top of page</a></p>
+				</div>
+			</section>
+		<footer>	
+    	<p>Copyright &copy; 2013</p>
+		</footer>
 	</body>
 </html>
