@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8"/>
+	<title>HTML Forms</title>
+  </head>
+  <body>
+  	<h1>HTML Form</h1>
+  	<h2>Login Form</h2>
+  	<!-- Login Form -->
+		<form method="post" action="mailto:samantha.bryant26@gmail.com">
+			<div>
+				<p>Email <input type="text" name="email"/></p>
+			</div>
+			<div>
+				<p>Password <input type="password" name="password"/></p>
+			</div>
+			<div>
+				<label><input type="radio" name="gender" value="female" checked/>Female</label>
+				<label><input type="radio" name="gender" value="male"/>Male</label>
+			</div>
+			<div>
+				<p><label><input type="checkbox" name="remember_me">Remember Me</label></p>
+				<p><label><input type="checkbox" name="terms">Terms of Agreement</label></p>
+			</div>
+			<div>
+				<select name="bands">
+					<option value="rock">Rock</option>
+					<option value="pop">Pop</option>
+					<option value="alternative">Alternative</option>
+					<option value="country">Country</option>
+				</select>
+			</div>
+			<div>
+				<p><textarea name="comments" rows="5" cols="15">List music here if not listed above:</textarea></p>
+			</div>
+			<div>
+				<input type="button" name="submit" value="submit">
+			</div>
+		</form> <!-- End of form -->
+ 	</body>
+</html>
