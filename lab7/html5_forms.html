@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8"/>
+	<title>HTML5 Forms</title>
+    </head>
+    <body>
+  	<h1>Event Registration</h1>
+  	<h2>Register now while spots are still available!</h2>
+  	<!-- Registration Form -->
+		<form method="get" action="http://www.thecolorrun.com">
+			<div>
+				<p>Look up the Marathon Event(s) you wish to attend.</p>
+				<p>Search <input type="search" name="search_site" autofocus="autofocus"/></p>
+			</div>
+			<!-- First and Last name -->
+			<div>
+				<p>First Name: <input type="text" name="first_name"/></p>
+				<p>Last Name: <input type="text" name="second_name"/></p>
+				<p>Suffix: <input type="text" list="mydata"/>
+					<datalist id="mydata">
+						  <option label="Sr" value="Senior">
+						  <option label="Jr" value="Junior">
+						  <option label="Esq" value="Esquire">
+					</datalist>
+			 	</p>
+			</div>
+			<!-- Email div -->
+			<div>
+				<p>Email: <input type="email" name="email_address" placeholder="myemail@gmail.com" required="required"/>
+			</div>
+			<!-- Phone number -->
+			<div>
+				<p>Phone: <input type="tel" name="phone" placeholder="###-###-####"/>
+			</div>
+			<!-- URL -->
+			<div>
+				<p>URL: <input type="url" name="website" placeholder="website"/>
+			</div>
+			<!-- Color picker -->
+			<div>
+				<p>Please select your running color.</p>
+				<input type="color" name="color_choice"/>
+			</div>
+			<!-- Number list -->
+			<div>
+				<p>Please select the number of people in your group.</p>
+				<input type="number" name="items"/>
+			</div>
+			<!-- Range -->
+			<div>
+				<p>Please select your desired number range.</p>
+				<input type="range" name="amount"/>
+			</div>
+			<!-- Date -->
+			<div>
+				<p>Please select the date you wish to attend on.</p>
+				<input type="date" name="arrival_date" required="required"/>
+			</div>
+			<!-- Time -->
+			<div>
+				<p>Please select the time you wish to arrive.</p>
+				<input type="time" name="arrival_time" required="required"/>
+			</div>
+			<!-- Progress bar -->
+			<div>
+				<p>You are almost done!</p>
+				<progress value="85" max="100">85%</progress>
+			</div>
+			<!-- Radio Buttons -->
+			<div>
+				<p>Will you be participating?</p>
+				<label><input type="radio" name="yes" value="yes" checked/>Yes</label>
+				<label><input type="radio" name="no" value="no"/>No</label>
+			</div>
+			<!-- Checkboxes -->
+			<div>
+				<p>Would you like email updates emailed to you?</p>
+				<p><label><input type="checkbox" name="yes">Yes</label></p>
+				<p><label><input type="checkbox" name="no">No</label></p>
+			</div>
+			<!-- Comments Box -->
+			<div>
+				<p>Comments or Questions?</p>
+				<textarea name="comments" rows="5" cols="15"></textarea>
+			</div>
+			<!-- Submit button -->
+			<div>
+				<p><input type="submit" name="submit" value="Submit"></p>
+			</div>
+		</form>
+		<!-- End -->
+ 	</body>
+</html>

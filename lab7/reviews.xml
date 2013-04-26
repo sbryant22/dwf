@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<!-- Reviews of Bands -->
+	<!-- Rolling Stones Magazine was used as reference. Reviews are from my knowledge and some facts of the bands from Wikipedia.com -->
+	<channel>
+		<title>Rolling Stones Music Reviews</title>
+		<link>http://www.rollingstone.com/music</link>
+		<description>Rolling Stones Magazine music reviews</description>
+		<!-- Fall Out Boy --> 
+		<item>
+			<title>Fall Out Boy</title>
+			<link>file:///Users/samanthabryant/wdf/lab7/rss.link.html</link>
+			<description>Fall Out Boy is an American pop punk band from Wilmette, Illinois. They formed the band in 2001 after being in a few other rock bands in the Chicago area. The band reached mainstream success after the release of their second album From Under the Cork Tree in 2005. Since then, the band has had continued success with hits like, Dance, Dance, Thanks for the Memories, Save Rock and Roll, and My Songs Know What you Did in the Dark (Light em up). They have been topping the charts for over a decade now and they just keep getting better. I give this band 2 thumbs up.</description>
+		</item>
+		<!-- All-American Rejects -->
+		<item>
+			<title>All-American Rejects</title>
+			<link>file:///Users/samanthabryant/wdf/lab7/rss.link.html</link>
+			<description>The All-American Rejects is an American pop rock band formed in Stillwater, OK in 1999. The band consists of lead vocalist, pianist, and bass guitarist Tyson Ritter, backing vocalist Nick Wheeler, rhythm guitarist Mike Kennerty, and drummer Chris Gaylor. The band achieved mainstream success in 2003 with their debut self-titled album The All-American Rejects. In 2005, they reached more mainstream success with their second album having three hit singles. They've had four successful albums so far and are still going strong. I've recently have had the pleasure of seeing this band in concert. It was a great show. Tyson is very energetic and he has a lot of fun on stage. They are a must-see. I give this a band 2 thumbs up. If I had more thumbs I'd give them 5 thumbs up.</description>
+		</item>
+		<!-- Rev Theory -->
+		<item>
+			<title>Rev Theory</title>
+			<link>file:///Users/samanthabryant/wdf/lab7/rss.link.html</link>
+			<description>Rev Theory is an American rock band formed in 2002 in North Andover, MA. The band has released three studio albums since 2005. In 2007, they toured with major bands like Papa Roach and Hinder. That same year they signed with Interscope Records and released their second album the following year, "Light it up". Rev Theory has released their fourth album late last year and are still going strong. This band gets a 2 thumbs up.</description>
+		</item>
+		<!-- Krewella -->
+		<item>
+			<title>Krewella</title>
+			<link>file:///Users/samanthabryant/wdf/lab7/rss.link.html</link>
+			<description>Krewella is an American electronic dance music group from Chicago, IL that formed in 2007. The group burst onto the scene in 2011 and where immediately recognized for their signature-blend of self-produced electro-pop beats. After their self-released album in 2012, their EP hit the charts at #1 for Beatport. They have been winning awards since then and playing at popular electro-pop, dubstep-like festivals. Billboard has declared that Krewella will be huge this year. I was introduced to this band when they filmed a music video at Full Sail University. I have been listening to them ever since. I give this group 2 thumbs up.</description>
+		</item>
+	</channel>
+</rss>
+
+	
+	
