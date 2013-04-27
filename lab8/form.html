@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+	<meta charset="utf-8"/>
+	<title>HTML Forms</title>
+    </head>
+    <body>
+  	<h1>HTML Form</h1>
+  	<h2>Login Form</h2>
+  	<!-- Login Form -->
+		<form method="post" action="mailto:samantha.bryant26@gmail.com">
+			<div>
+				<p><label for="email">Email</label> <input type="text" name="email" id="email"/></p>
+			</div>
+			<div>
+				<p><label for="password">Password</label> <input type="password" name="password" id="password"/></p>
+			</div>
+			<div>
+				<fieldset>
+					<legend>Gender</legend>
+						<p>
+						<input type="radio" name="gender" value="female" id="female"/>
+							<label for="female">Female</label>
+						<input type="radio" name="gender" value="male" id="male"/>
+							<label for="male">Male</label>
+						</p>
+				</fieldset>
+			</div>
+			<div>
+				<fieldset>
+					<legend>Newsletter</legend>
+						<p>Would you like us to email you our Newsletter?</p>
+						<p><label for="yes">Yes</label> <input type="checkbox" value="newsletter" id="yes"/></p>
+						<p><label for="no">No</label> <input type="checkbox" value="newsletter" id="no"/></p>
+				</fieldset>
+			</div>
+			<div>
+				<fieldset>
+					<legend>Band Genres</legend>
+						<select name="bands" id="bands">
+								<label for="bands">Bands</label>
+							<option value="rock" id="rock">Rock</option>
+								<label for="rock">Rock</label>
+							<option value="pop" id="pop">Pop</option>
+								<label for="pop">Pop</label>
+							<option value="alternative" id="alternative">Alternative</option>
+								<label for="alternative">Alternative</label>
+							<option value="country" id="country">Country</option>
+								<label for="country">Country</label>
+						</select>
+				</fieldset>
+			</div>
+			<div>
+				<fieldset>
+					<legend>Comments</legends>
+						<p><label for="comments">Comments</label> <textarea name="comments" rows="5" cols="15" id="comments">List music here if not listed above:</textarea></p>
+				</fieldset>
+			</div>
+			<div>
+				<fieldset>
+					<legend>Submit button</legend>
+						<p><label for="submit">Submit</label> <input type="submit" name="submit" value="submit" id="submit"/></p>
+				</fieldset>
+			</div>
+		</form> <!-- End of form -->
+ 	</body>
+</html>
