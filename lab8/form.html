@@ -16,6 +16,7 @@
 				<p><label for="password">Password</label> <input type="password" name="password" id="password"/></p>
 			</div>
 			<div>
+			<!-- Radio buttons -->
 				<fieldset>
 					<legend>Gender</legend>
 						<p>
@@ -27,6 +28,7 @@
 				</fieldset>
 			</div>
 			<div>
+			<!-- Checkboxes -->
 				<fieldset>
 					<legend>Newsletter</legend>
 						<p>Would you like us to email you our Newsletter?</p>
@@ -36,13 +38,15 @@
 			</div>
 			<div>
 				<fieldset>
-					<legend>Band Genres</legend>
-							<label for="bands">Bands::</label>
-						<select name="bands" id="bands">
-							<option value="rock">Rock</option>
-							<option value="pop">Pop</option>
-							<option value="alternative">Alternative</option>
-							<option value="country">Country</option>
+					<legend>Music Genres</legend>
+							<label for="genres">Music Genres</label>
+						<select name="genres" id="genres">
+							<optgroup label="genres">
+								<option value="rock">Rock</option>
+								<option value="pop">Pop</option>
+								<option value="alternative">Alternative</option>
+								<option value="country">Country</option>
+							</optgroup>
 						</select>
 				 </fieldset>
 			</div>
