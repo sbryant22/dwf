@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- bryant_samantha -->
+<html lang="en">
+	<head>
+	<meta charset="utf-8"/>
+	<title>Accessibility Check</title>
+  	</head>
+  	<body>
+		<div id="wrapper">
+			<header>
+    		<h1>Accessibility Check</h1>
+    	<!-- navigation starts -->
+    		<nav>
+    			<ul>
+    				<li><a href="#smashing_magazine">Smashing Magazine</a></li>
+    				<li><a href="#rolling_stone_magazine">Rolling Stone Magazine</a></li>
+    				<li><a href="#haagen_dazs">Haagen Dazs</a></li>
+    				<li><a href="#dodge_challenger">Dodge Challenger</a></li>
+    			</ul>
+    		</nav>
+    		</header>
+    	</div>
+    <!-- Smashing Magazine info -->
+    	<section>
+    		<div class="title">
+    			<h1 id="smashing_magazine">Smashing Magazine</h1>
+    			<p><a href="www.smashingmagazine.com" title="smashingmagazine.com">smashingmagazine.com</a></p>
+    		</div>
+    		<div id="body">
+    			<p><a href="www.smashingmagazine.com" title="smashingmagazine.com"></a><img src="images/smashing_magazine.jpg" alt="Smashing Magazine Website" width="500" height="400" title="Smashing Magazine Website"/></p>
+    		</div>
+    		<div class="review">
+    			<h2>Accessibility Review</h2>
+    			<p><em>Smashing Magazine</em> is a very useful website for designers, web designers, and web programmers alike. It has useful tips on all the programming languages and on all of the Adobe software like Photoshop and Illustrator (to just name a few). They also have books and ebooks on mobile and web design.</p>
+    			<h3>AChecker.ca and CynthiaSays.com</h3>
+    			<p>This site did <strong>not</strong> pass the WCAG 2.0 or the Section 508 accessibility verification.</p>
+    			<p>This site has 36 errors for WCAG 2.0. Some errors are because valid alt text for the images are missing, appropriate labels are missing, and errors with their CSS. You can see the full list at <a href="http://achecker.ca/checker/index.php">achecker.ca/checker/index.php</a></p>
+    			<p>This site also has errors with their Section 508. The errors for this page are harder to figure out in some areas but for the most part, alt, title, and label attributes are not being used when needed. You can see the full list at <a href="http://cynthiasays.com/Home.aspx?">cynthiasays.com/Home.aspx?</a></p>
+    			<p>To fix these errors, I would fix the contrasting color errors with the CSS, add label elements that surround the &lt;select&gt; elements, and then add text to describe the function or purpose of the controls in the &lt;input&gt; elements.</p>
+    			<p><a class="gotop" href="#">Top of page</a></p>
+    		</div>
+    	</section>
+    	<!-- Rolling Stone Magazine info -->
+    	<section>
+    		<div class="title">
+    			<h1 id="rolling_stone_magazine">Rolling Stone Magazine</h1>
+    			<p><a href="http://www.rollingstone.com" title="rollingstone.com">rollingstone.com</a></p>
+    		</div>
+    			<p><a href="http://www.rollingstone.com" title="rolling_stone_magazine"></a><img src="images/rolling_stone.jpg" alt="Rolling Stone Magazine Website" width="500" height="397" title="Rolling Stone Magazine Website"/></p>
+    		<div class="review">
+    			<h2>Accessibility Reveiw</h2> 
+    			<p><em>Rolling Stone Magazine's</em> website is where you can go to read up on the latest music, movie, television, and celebrity news.</p>
+    			<h3>AChecker.ca and Cynthiasays.com</h3>
+    			<p>This site did <strong>not</strong> pass the WCAG 2.0 and Section 508 accessibility validation.</p>
+    			<p>This site has 43 WCAG 2.0 errors. Some of the errors are that a few &lt;img&gt; elements are missing alt attributes and &lt;input&gt; elements are either missing associated labels or they have the labels but no text is in them. Anchors don't have any text in them. Incorrect headers were used and document language was not identified.</p>
+    			<p>This site has errors with their Section 508 validation. For the most part, the errors are associated with the &lt;img&gt; elements. The appropriate alt attributes/titles are missing. Frame elements don't have the appropriate element content and some of the &lt;input&gt; elements don't have alt, title, or label attributes.</p>
+    			<p>To fix these errors, I would put in descriptive alt attributes for the &lt;img&gt; elements and I would give the &lt;input&gt; elements label attributes and include text in them. Text would also be put into the anchors and the headers would be put in correctly. I would also identify the document language at the beginning of the html code.</p>
+    			<p><a class="gotop" href="#">Top of page</a></p>
+    		</div>
+    	</section>
+    	<!-- Haagen Dazs info -->
+    	<section>
+    		<div class="title">
+    			<h1 id="haagen_dazs">Haagen Dazs</h1>
+    			<p><a href="http://www.haagendazs.com" title="haagendazs.com">haagendazs.com</a></p>
+    		</div>
+    			<p><a href="http://www.haagendazs.com/" title="haagendazs.com"></a><img src="images/haagen_dazs.jpg" alt="Haagen Dazs Website" width="500" height="376" title="Haagen Dazs Ice Cream Website"/></p>
+    			<div class="review">
+    			<h2>Accessibility Review</h2>
+				<p>The <em>Haagen Dazs'</em> website features all of their classic and limited edition ice cream flavors. You can learn more about the company's history, you can connect with them through Facebook and Twitter, and by signing up for their newsletter. You can also find a shop near you and look around the site to find your perfect flavor and figure how how you would want it - whether in a waffle cone or in a bowl. This site can make you very hungry.</p>
+				<h3>AChecker.ca and Cynthiasays.com</h3>
+				<p>This site does <strong>not</strong> pass the WCAG 2.0 and the Section 508 accessibility validation.</p>
+				<p>This site has 26 WCAG 2.0 errors. Like a lot of the other sites, this one is also missing valid alt text within their &lt;img&gt; elements. Labels are missing. The &lt;script&gt; elements are not keyboard accessible and event handlers are missing for &lt;onmouseover&gt;. The document language wasn't identified and label text are empty.</p>
+				<p><em>Haagen Dazs</em> has a few errors with Section 508. The IFRAME elements are missing content and labels are missing for the &lt;input&gt; elements.</p>
+				<p>To fix these errors, I would put in descriptive alt attributes text into the &lt;img&gt; elements. Labels and their text would be placed into the &lt;input&gt; elements. The script will become keyboard accessible by putting in the appropriate &lt;onmouseout&gt; and &lt;onblur&gt; elements and I would put in the correct document language at the beginning of the HTML.</p>
+    			<p><a class="gotop" href="#">Top of page</a></p>
+    		</div>
+    	</section>
+    	<!-- Dodge Challenger info -->
+    	<section>
+    		<div class="title">
+    			<h1 id="dodge_challenger">Dodge Challenger</h1>
+    			<p><a href="http://www.dodge.com/en/2013/challenger/" title="dodge.com">dodge.com</a></p>
+    		</div>
+    			<p><img src="images/dodge_challenger.jpg" alt="Dodge Website featuring 2012 Challenger" width="500" height="379" title="Dodge Automotive Website"/></p>
+    				<div class="review">
+    				<h2>Accessibility Review</h2>
+	 				<p>On <em>Dodge's</em> website it features all of their cars and I chose the <em>Dodge Challenger</em> page because I love this car. It gives you information on the car, from the price to how much gas mileage, and it lets you customize the vehicle anyway you would like it. The site also provides a game called <em>Dodge Social</em> letting you explore the vehicle that is featured in the new SCI FI show <em>Defiance</em>.</p>
+	 				<h3>AChecker.ca and Cynthiasays.com</h3>
+					<p>This site does <strong>not</strong> pass the WCAG 2.0 and the Section 508 validation.</p>
+					<p>This site has 22 WCAG 2.0 errors. Alt attributes are missing in the &lt;img&gt; tags. Headers that are following the &lt;h1&gt; tags are incorrect, document language is not identified, and an &lt;id&gt; is not unique.</p>
+					<p>This site has a lot of errors with Section 508 because the &lt;img&gt; elements do not have alt text. To pass Section 508 all IMG elements require this.</p>
+					<p>To fix these errors, I would put in the required alt attributes and text into the IMG elements, I would identify the document's language at the beginning of the HTML, and I would correct the headers that are following the &lt;h1&gt; elements.</p>
+					<p><a class="gotop" href="#">Top of page</a></p>
+				</div>
+			</section>
+		<footer>	
+    	<p>Copyright &copy; 2013</p>
+		</footer>
+	</body>
+</html>
